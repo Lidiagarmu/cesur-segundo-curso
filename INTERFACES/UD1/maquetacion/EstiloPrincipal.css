@@ -1,0 +1,13 @@
+
+/* Aquí definimos la capa que nombraremos como "capa" */
+#capa {
+    width: 300px;
+    height: 50px;
+    background-color: #7AFF33;
+    }
+    /* Ahora definiremos al grupo de capas que formarán parte de la clase "caja" */
+    .caja {
+    width: 300px;
+    height: 50px;
+    background-color: #3390FF;
+    }
