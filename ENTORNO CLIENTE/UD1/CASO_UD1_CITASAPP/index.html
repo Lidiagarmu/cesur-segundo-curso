@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>CITAS APP</title>
+</head>
+<body>
+
+    <h1>RESERVE SU CITA </h1>
+    
+    <main>
+        <form>
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name"/>
+            </div>
+
+            <div>
+                <label for="surname">Apellidos:</label>
+                <input type="text" id="surname"/>
+            </div>
+
+            <div>
+                <label for="date">Fecha de reserva:</label>
+                <input type="date"  id="date"/>
+            </div>
+
+            <div>
+                <button type="submit" id="reservar">Reservar</button>
+                <button type="reset">Borrar formulario</button>
+            </div>
+
+        </form>
+
+        <div id="alert">
+            <p>Obligatorio rellenar todos los campos</p>
+            <button type="button" id="confirm">OK</button>
+        </div>
+
+
+    </main>
+    
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
