@@ -61,6 +61,7 @@ const handleClick = (event) => {
              //cambiamos el main de nuevo
              main.innerHTML = `
             <form>
+            
                 <div>
                     <label for="name">Nombre:</label>
                     <input type="text" id="name"/>
@@ -69,11 +70,6 @@ const handleClick = (event) => {
                 <div>
                     <label for="surname">Apellidos:</label>
                     <input type="text" id="surname"/>
-                </div>
-
-                <div>
-                    <label for="movile">Teléfono:</label>
-                    <input type="number" minlength="9" maxlength="9" id="movile"/>
                 </div>
 
                 <div>
