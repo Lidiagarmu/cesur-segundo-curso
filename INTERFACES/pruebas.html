@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto; 
+            margin: 0; 
+        }
+        video {
+            display: block;
+            margin: 0 auto;
+        }
+        canvas {
+            display: block;
+            margin: 20px auto; 
+            border: 1px solid black;
+        }
+    </style> 
+</head>
+<body>
+    
+    <h1 style="text-align: center;">PROBANDO EL COMPORTAMIENTO <br> DE HTML5</h1>
+    
+    <section>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+        <canvas id="myCanvas" width="100" height="100"></canvas>
+
+        <script>
+            // Espera a que el DOM esté listo
+            window.onload = function () {
+                const canvas = document.getElementById("myCanvas");
+                const ctx = canvas.getContext("2d");
+    
+                // Dibuja un rectángulo rojo
+                ctx.fillStyle = "red";
+                ctx.fillRect(50, 50, 150, 100);
+            };
+        </script>
+    </section>
+</body>
+</html>
