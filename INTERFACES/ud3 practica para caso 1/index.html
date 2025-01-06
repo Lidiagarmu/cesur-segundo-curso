@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #6200ea;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #6200ea;
+    }
+
+    video, audio {
+      display: block;
+      width: 100%;
+      margin: 20px auto;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #6200ea;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Página Multimedia</h1>
+  </header>
+
+  <div class="container">
+
+    <h2>Video</h2>
+    <video controls poster="https://via.placeholder.com/800x400">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+  </div>
+
+  <footer>
+    &copy; 2025 Mi Página Multimedia. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
